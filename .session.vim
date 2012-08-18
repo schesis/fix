@@ -1,5 +1,5 @@
 edit fix/__init__.py
-below split fix/decorators.py
+below split fix/fix.py
 below split fix/_version.py
 below split setup.py
 below split tox.ini
@@ -11,10 +11,10 @@ below split .pylintrc
 bo vsplit README
 below split tests/__init__.py
 below split tests/test.py
-below split tests/decorators/__init__.py
-below split tests/decorators/examples.py
-below split tests/decorators/test.py
-below split tests/decorators/test_fixture.py
+below split tests/test_fix/__init__.py
+below split tests/test_fix/examples.py
+below split tests/test_fix/test.py
+below split tests/test_fix/test_with_fixture.py
 below split .hgignore
 below split .session.vim
 
