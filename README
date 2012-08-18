@@ -1,0 +1,40 @@
+
+==========================
+fix - Simple test fixtures
+==========================
+
+:Author: Zero Piraeus
+:Contact: z@etiol.net
+
+**fix** is a simple library to assist with the creation of fixtures for test
+functions, methods etc. It provides one decorator, ``fixture``, which allows
+you to attach setup and teardown functions to the decorated callable, and
+access information defined in the fixture from within the test function.
+
+
+Example
+-------
+
+.. write me!
+
+
+Usage
+-----
+
+.. write me!
+
+
+Installation
+------------
+
+This should do the trick::
+
+    pip install fix
+
+
+Licence
+---------
+
+**fix** is released under the GNU General Public License (version 3 or later),
+a copy of which is included with this distribution in the file **COPYING**.
+
