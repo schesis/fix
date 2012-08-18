@@ -1,17 +1,17 @@
-"""Tests for the `fix.decorators.fixture` function."""
+"""Tests for the `fix.fix.with_fixture` function."""
 
 from types import FunctionType
 
-from fix import fixture
+from fix import with_fixture
 
 
 def test_exists():
-    """`fix.fixture` function exists"""
-    assert isinstance(fixture, FunctionType)
+    """`fix.with_fixture` function exists"""
+    assert isinstance(with_fixture, FunctionType)
 
 
 def test_call():
-    """`fix.fixture` function does something sensible"""
+    """`fix.with_fixture` function does something sensible"""
 
     def my_fixture(context):
         """Create a fixture that assigns "bar" to `context["foo"]`."""
@@ -20,7 +20,7 @@ def test_call():
             context["foo"] = "bar"
         return setup
 
-    @fixture(my_fixture)
+    @with_fixture(my_fixture)
     def case(context):
         """Return `context["foo"]`."""
         return context["foo"]

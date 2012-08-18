@@ -1,1 +1,1 @@
-"""Examples for `tests.decorators`."""
+"""Examples for `tests.test_fix`."""

@@ -7,9 +7,9 @@ fix - Simple test fixtures
 :Contact: z@etiol.net
 
 **fix** is a simple library to assist with the creation of fixtures for test
-functions, methods etc. It provides one decorator, ``fixture``, which allows
-you to attach setup and teardown functions to the decorated callable, and
-access information defined in the fixture from within the test function.
+functions, methods etc. It provides one decorator, ``with_fixture``, which
+allows you to attach setup and teardown functions to the decorated callable,
+and access information defined in the fixture from within the test function.
 
 
 Example

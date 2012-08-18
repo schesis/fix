@@ -1,16 +1,16 @@
-"""Decorators."""
+"""Simple test fixtures."""
 
 from functools import wraps
 
 
-def fixture(create_fixture, **kwargs):
+def with_fixture(create_fixture, **kwargs):
     """Decorate a callable with a fixture."""
     context = {}
-    fixt = create_fixture(context, **kwargs)
-    if isinstance(fixt, tuple):
-        setup, teardown = fixt
+    fixture = create_fixture(context, **kwargs)
+    if isinstance(fixture, tuple):
+        setup, teardown = fixture
     else:
-        setup = fixt
+        setup = fixture
         teardown = lambda: None
 
     def wrap(func):

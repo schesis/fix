@@ -1,1 +1,1 @@
-"""Tests for the `fix.decorators` module."""
+"""Tests for the `fix.fix` module."""

@@ -1,10 +1,10 @@
-"""General tests for the `fix.decorators` module."""
+"""General tests for the `fix.fix` module."""
 
 from types import ModuleType
 
-import fix.decorators
+import fix.fix
 
 
 def test_exists():
-    """`fix.decorators` module exists"""
-    assert isinstance(fix.decorators, ModuleType)
+    """`fix.fix` module exists"""
+    assert isinstance(fix.fix, ModuleType)
