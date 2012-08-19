@@ -14,6 +14,7 @@ below split tests/test.py
 below split tests/test_fix/__init__.py
 below split tests/test_fix/examples.py
 below split tests/test_fix/test.py
+below split tests/test_fix/test_context.py
 below split tests/test_fix/test_with_fixture.py
 below split .hgignore
 below split .session.vim
