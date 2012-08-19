@@ -8,8 +8,9 @@ fix - Simple test fixtures
 
 **fix** is a simple library to assist with the creation of fixtures for test
 functions, methods etc. It provides one decorator, ``with_fixture``, which
-allows you to attach setup() and teardown() functions to the decorated callable,
-and access information defined in the fixture from within the test function.
+allows you to attach ``setup()`` and ``teardown()`` functions to the decorated
+callable, and access information defined in the fixture from within the test
+function.
 
 **fix** was written for use with nose_, but doesn't depend on it, and may also
 prove useful with other test frameworks.
