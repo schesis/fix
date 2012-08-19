@@ -23,6 +23,8 @@ Examples
 
 Here's a basic example with setup but no teardown::
 
+    from fix import with_fixture
+
     def setup_only(context):
 
         def setup():
@@ -38,6 +40,8 @@ Here's a basic example with setup but no teardown::
 
 ... and here's a rather more involved one that creates some temporary files to
 work with, then deletes them during teardown::
+
+    from fix import with_fixture
 
     def external(context, files=3):
 
