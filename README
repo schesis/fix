@@ -41,6 +41,10 @@ Here's a basic example with setup but no teardown::
 ... and here's a rather more involved one that creates some temporary files to
 work with, then deletes them during teardown::
 
+    import os
+    import shutil
+    import tempfile
+
     from fix import with_fixture
 
     def external(context, files=3):
