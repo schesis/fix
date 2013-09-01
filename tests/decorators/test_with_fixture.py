@@ -1,4 +1,4 @@
-"""Tests for the `fix.fix.with_fixture` function."""
+"""Tests for the `fix.with_fixture` function."""
 
 from __future__ import with_statement
 

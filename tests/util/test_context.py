@@ -1,12 +1,12 @@
-"""Tests for the `fix.fix.Context` class."""
+"""Tests for the `fix.util.Context` class."""
 
-from fix.fix import Context
+from fix.util import Context
 
 KWARGS = {"squee": "kapow", "boing": "thunk"}
 
 
 def test_exists():
-    """`fix.Context` function exists"""
+    """`fix.util.Context` function exists"""
     assert isinstance(Context, type)
 
 

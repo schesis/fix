@@ -1,19 +1,7 @@
-"""Simple test fixtures."""
+"""Decorators."""
 
 from functools import wraps
-
-
-class Context(dict):
-
-    """Store context information for a fixture."""
-
-    def __init__(self, *args, **kwargs):
-        dict.__init__(self, *args, **kwargs)
-        self.__dict__ = self
-
-    def __repr__(self):
-        kwarg_str = ", ".join("%s=%r" % kv for kv in sorted(self.items()))
-        return "%s(%s)" % (self.__class__.__name__, kwarg_str)
+from fix.util import Context
 
 
 def with_fixture(create_fixture, **kwargs):
