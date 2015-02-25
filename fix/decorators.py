@@ -4,6 +4,10 @@ from functools import wraps
 from fix.util import Context
 
 
+def null():
+    """Do nothing."""
+
+
 def with_fixture(create_fixture, **kwargs):
     """Decorate a callable with a fixture."""
     context = Context()
@@ -12,7 +16,7 @@ def with_fixture(create_fixture, **kwargs):
         setup, teardown = fixture
     else:
         setup = fixture
-        teardown = lambda: None
+        teardown = null
 
     def wrap(func):
         """Wrap the callable."""
