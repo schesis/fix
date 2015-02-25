@@ -1,5 +1,4 @@
 [REPORTS]
-include-ids = yes
 output-format = colorized
 reports = no
 
