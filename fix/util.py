@@ -5,6 +5,8 @@ class Context(dict):
 
     """Store context information for a fixture."""
 
+    # pylint: disable=too-few-public-methods
+
     def __init__(self, *args, **kwargs):
         dict.__init__(self, *args, **kwargs)
         self.__dict__ = self
