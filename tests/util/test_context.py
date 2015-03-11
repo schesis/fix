@@ -1,4 +1,4 @@
-"""Tests for the `fix.util.Context` class."""
+"""Tests for `fix.util.Context`."""
 
 from fix.util import Context
 

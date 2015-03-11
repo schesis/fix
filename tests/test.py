@@ -1,4 +1,4 @@
-"""General tests for the `fix` package."""
+"""Tests for `fix`."""
 
 from types import ModuleType
 

@@ -1,4 +1,4 @@
-"""General tests for the `fix.decorators` module."""
+"""Tests for `fix.decorators`."""
 
 from types import ModuleType
 
