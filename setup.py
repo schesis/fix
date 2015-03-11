@@ -12,7 +12,7 @@ setup(
     description=open("fix/__init__.py").readlines()[0].strip('"\n'),
     keywords="simple test fixture",
     license="GPLv3",
-    long_description=open("README").read(),
+    long_description=open("README.rst").read(),
     packages=["fix"],
     setup_requires=["setuptools_hg"],
     url="https://bitbucket.org/schesis/fix",
