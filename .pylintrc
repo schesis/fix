@@ -1,6 +1,6 @@
 [REPORTS]
 output-format = colorized
-reports = no
+reports = yes
 
 [BASIC]
 good-names = i,j,k,ex,Run,_,f
